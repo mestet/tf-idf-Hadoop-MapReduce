@@ -1,9 +1,9 @@
-tf-idf-Hadoop-MapReduce
+TF-IDF Hadoop MapReduce
 =======================
 
-Project from the CTU Big Data course which purpose was to compute tf-idf values for the <b>czech wikipedia</b>
+Реализация TF-IDF алгоритма.
 <br>
-Basic ideas behind the tf-idf implementation you can read on my <a href="http://ziky90.blogspot.cz/2014/07/wikipedia-articles-segmentation-using.html">blog</a>. 
+Forked from https://github.com/ziky90/tf-idf-Hadoop-MapReduce 
 
 <hr>
 Input to the mapreduce program should be <b>raw documents</b> where each of them is <b>represented as a line</b>
