@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+}
+
+group 'tf-idf-mapper'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.11
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'junit', name: 'junit', version: '4.12'
+    compile group: 'org.apache.hadoop', name: 'hadoop-common', version: '3.3.0'
+    compile group: 'org.apache.hadoop', name: 'hadoop-mapreduce-client-core', version: '3.3.0'
+    compile group: 'org.apache.lucene', name: 'lucene-core', version: '8.7.0'
+    compile group: 'org.apache.lucene', name: 'lucene-analyzers-common', version: '8.7.0'
+
+}
