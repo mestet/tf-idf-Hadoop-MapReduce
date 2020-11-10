@@ -1,4 +1,4 @@
-package com.zikesjan.bigdata.formatingmatrix;
+package ru.avlasova.tfidf.formatingmatrix;
 
 import java.io.IOException;
 
@@ -7,7 +7,7 @@ import org.apache.hadoop.mapreduce.Reducer;
 
 /**
  * Reducer performing the final Tf-Idf matrix rotation
- * @author zikesjan
+ * @author avlasova
  *
  */
 public class RotateReducer extends Reducer<Text, Text, Text, Text>{

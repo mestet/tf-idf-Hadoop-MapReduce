@@ -1,4 +1,4 @@
-package com.zikesjan.bigdata.tfidf;
+package ru.avlasova.tfidf.tfidf;
 
 import java.io.IOException;
 
@@ -7,7 +7,7 @@ import org.apache.hadoop.mapreduce.Mapper;
 
 /**
  * tf-idf computing mapper
- * @author zikesjan
+ * @author avlasova
  *
  */
 public class TFIDFMapper extends Mapper<Text, Text, Text, WordAndStatWritable>{

@@ -1,4 +1,4 @@
-package com.zikesjan.bigdata.tfidf;
+package ru.avlasova.tfidf.tfidf;
 
 import java.io.DataInput;
 import java.io.DataOutput;

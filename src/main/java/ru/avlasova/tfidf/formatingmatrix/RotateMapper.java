@@ -1,4 +1,4 @@
-package com.zikesjan.bigdata.formatingmatrix;
+package ru.avlasova.tfidf.formatingmatrix;
 
 import java.io.IOException;
 
@@ -7,7 +7,7 @@ import org.apache.hadoop.mapreduce.Mapper;
 
 /**
  * Mapper class that performs the matrix rotation
- * @author zikesjan
+ * @author avlasova
  *
  */
 public class RotateMapper extends Mapper<Text, Text, Text, Text>{

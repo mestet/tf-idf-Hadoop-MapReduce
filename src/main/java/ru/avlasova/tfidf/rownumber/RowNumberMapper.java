@@ -1,4 +1,4 @@
-package com.zikesjan.bigdata.rownumber;
+package ru.avlasova.tfidf.rownumber;
 
 import java.io.IOException;
 
@@ -7,11 +7,11 @@ import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
 
-import com.zikesjan.bigdata.TfIdfMain;
+import ru.avlasova.tfidf.TfIdfMain;
 
 /**
  * Row numbering mapper class
- * @author zikesjan
+ * @author avlasova
  *
  */
 public class RowNumberMapper extends Mapper<LongWritable, Text, ByteWritable, RowNumberWritable>{

@@ -1,4 +1,4 @@
-package com.zikesjan.bigdata.rownumber;
+package ru.avlasova.tfidf.rownumber;
 
 import java.io.DataInput;
 import java.io.DataOutput;
@@ -8,11 +8,11 @@ import org.apache.hadoop.io.ByteWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.io.Writable;
 
-import com.zikesjan.bigdata.TfIdfMain;
+import ru.avlasova.tfidf.TfIdfMain;
 
 /**
  * writable to make it simpler to carry value, count and partition values from mapper to reducer
- * @author zikesjan
+ * @author avlasova
  *
  */
 public class RowNumberWritable implements Writable{

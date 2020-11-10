@@ -1,4 +1,4 @@
-package com.zikesjan.bigdata.rownumber;
+package ru.avlasova.tfidf.rownumber;
 
 import java.io.IOException;
 import java.util.Iterator;
@@ -9,7 +9,7 @@ import org.apache.hadoop.mapreduce.Reducer;
 
 /**
  * reducer class calculating the lines and writing them out
- * @author zikesjan
+ * @author avlasova
  *
  */
 public class RowNumberReducer extends Reducer<ByteWritable, RowNumberWritable, Text, Text>{

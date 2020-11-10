@@ -1,4 +1,4 @@
-package com.zikesjan.bigdata.cleaningcounting;
+package ru.avlasova.tfidf.cleaningcounting;
 
 import java.io.DataInput;
 import java.io.DataOutput;
@@ -9,7 +9,7 @@ import org.apache.hadoop.io.WritableComparable;
 
 /**
  * Class that contains word and document to be transfered from Mapper to the Reducer
- * @author zikesjan
+ * @author avlasova
  *
  */
 public class WordDocumentWritable implements WritableComparable<WordDocumentWritable>{

@@ -1,4 +1,4 @@
-package com.zikesjan.bigdata.cleaningcounting;
+package ru.avlasova.tfidf.cleaningcounting;
 
 import java.io.IOException;
 import java.util.Collection;
@@ -12,7 +12,7 @@ import org.apache.lucene.analysis.en.EnglishAnalyzer;
 
 /**
  * Frequency mapper class that clens the raw input data and outputs WordDocumentWritable which represents tuple of word and document.
- * @author zikesjan
+ * @author avlasova
  *
  */
 public class FrequencyMapper extends Mapper<Text, Text, WordDocumentWritable, Text> {

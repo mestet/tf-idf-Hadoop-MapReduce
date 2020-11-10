@@ -1,4 +1,4 @@
-package com.zikesjan.bigdata.tfidf;
+package ru.avlasova.tfidf.tfidf;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -11,7 +11,7 @@ import org.apache.hadoop.mapreduce.Reducer;
 
 /**
  * Tf-Idf value computing reducer class
- * @author zikesjan
+ * @author avlasova
  *
  */
 public class TFIDFReducer extends Reducer<Text, WordAndStatWritable, Text, Text>{

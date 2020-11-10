@@ -1,4 +1,4 @@
-package com.zikesjan.bigdata.cleaningcounting;
+package ru.avlasova.tfidf.cleaningcounting;
 
 import java.io.IOException;
 import java.util.HashSet;
@@ -6,11 +6,11 @@ import java.util.HashSet;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Reducer;
 
-import com.zikesjan.bigdata.TfIdfMain.MyCounters;
+import ru.avlasova.tfidf.TfIdfMain.MyCounters;
 
 /**
  * Reducer class that sums occurencies and writes count data out back to HDFS
- * @author zikesjan
+ * @author avlasova
  *
  */
 public class FrequencyReducer extends Reducer<WordDocumentWritable, Text, Text, Text>{
